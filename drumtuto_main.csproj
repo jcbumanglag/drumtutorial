@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3724DF72-F99E-43B0-A1C2-6998B14299F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>drumtuto_main</RootNamespace>
+    <AssemblyName>drumtuto_main</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Curvebutton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="drumstutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drumstutos.designer.cs">
+      <DependentUpon>drumstutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu2.designer.cs">
+      <DependentUpon>menu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="drumstutos.resx">
+      <DependentUpon>drumstutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu2.resx">
+      <DependentUpon>menu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamestart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuset.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drum-set.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnstart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choice.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tom.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tom.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnabout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnmaintenance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnabout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnext1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnmaintenance1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnmusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnopt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnopt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnopt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsettings1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnstart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btntutorials.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnwarmup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drum-set1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamestart1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuset1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnabout2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnback1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnext2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnmaintenance2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnmusic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnopt11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnopt21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnopt31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsettings2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnstart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btntutorials1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnwarmup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drum-set2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamestart2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuset2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b3activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b3inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b5activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b5inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b6activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b6inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b7activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b7inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countdown.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snare.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\129852011_395377775244478_5922764547471579795_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1activated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1active-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1inactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1inactive-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1inactives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2activated.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
