@@ -72,6 +72,9 @@ namespace drumtuto_main
         int perfect = 0;
         int miss = 0;
         int good = 0;
+
+        //int goodcom = 0;
+        //int perfcom = 0; 
         // for database
        
         int gscore = 0;
@@ -4144,7 +4147,7 @@ namespace drumtuto_main
 
         #region controls
 
-        public void buttonactive1() 
+        public void buttonactive1()
         {
 
 
@@ -4160,6 +4163,9 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 perfect += 1;
+               
+                ones = 1;
+                delaytim.Start();
 
             }
 
@@ -4173,6 +4179,8 @@ namespace drumtuto_main
                 a1_1.Location = new Point(12, x1_1);
                 hit1 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
 
             }
 
@@ -4187,7 +4195,8 @@ namespace drumtuto_main
                 a1_2.Location = new Point(12, x1_2);
                 hit1 += 1;
                 perfect += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_2.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4200,7 +4209,8 @@ namespace drumtuto_main
                 a1_2.Location = new Point(12, x1_2);
                 hit1 += 1;
                 good += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_3.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4214,6 +4224,8 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_3.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4227,6 +4239,8 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_4.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4240,6 +4254,8 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_4.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4253,6 +4269,8 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_5.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4266,6 +4284,8 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a1_5.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4279,14 +4299,13 @@ namespace drumtuto_main
                 hit1 += 1;
 
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
         }
 
         public void buttonactive2() 
         {
-
-
-
 
             if (a2_1.Bounds.IntersectsWith(pnl1.Bounds))
             {
@@ -4298,6 +4317,8 @@ namespace drumtuto_main
                 a1_1.Location = new Point(89, x2_1);
                 hit2 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_1.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4310,11 +4331,13 @@ namespace drumtuto_main
                 a2_1.Location = new Point(89, x2_1);
                 hit2 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
 
             }
 
 
-            if (a2_2.Bounds.IntersectsWith(pnl1.Bounds))
+            if (a2_2.Bounds.IntersectsWith(pnl1.Bounds) )
             {
                 a2_2.Visible = false;
                 indi1.Visible = true;
@@ -4324,7 +4347,8 @@ namespace drumtuto_main
                 a2_2.Location = new Point(89, x2_2);
                 hit2 += 1;
                 perfect += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_2.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4337,7 +4361,8 @@ namespace drumtuto_main
                 a2_2.Location = new Point(89, x2_2);
                 hit2 += 1;
                 good += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_3.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4350,7 +4375,8 @@ namespace drumtuto_main
                 a2_3.Location = new Point(89, x2_3);
                 hit2 += 1;
                 perfect += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_3.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4363,7 +4389,8 @@ namespace drumtuto_main
                 a2_3.Location = new Point(89, x2_3);
                 hit2 += 1;
                 good += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_4.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4376,6 +4403,8 @@ namespace drumtuto_main
                 a2_4.Location = new Point(89, x2_4);
                 hit2 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_4.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4388,6 +4417,8 @@ namespace drumtuto_main
                 a2_4.Location = new Point(89, x2_4);
                 hit2 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_5.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4400,6 +4431,8 @@ namespace drumtuto_main
                 a2_5.Location = new Point(89, x2_5);
                 hit2 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a2_5.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4412,6 +4445,8 @@ namespace drumtuto_main
                 a2_5.Location = new Point(89, x1_5);
                 hit2 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
         }
 
@@ -4430,6 +4465,8 @@ namespace drumtuto_main
                 hit3 += 1;
                 //n3.Stop();
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_1.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4443,6 +4480,8 @@ namespace drumtuto_main
                 hit3 += 1;
                 //n3.Stop();
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
 
@@ -4457,6 +4496,8 @@ namespace drumtuto_main
                 hit3 += 1;
                 //n3.Stop();
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_2.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4470,7 +4511,8 @@ namespace drumtuto_main
                 hit3 += 1;
                 //n3.Stop();
                 perfect += 1;
-
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_3.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4479,11 +4521,13 @@ namespace drumtuto_main
                 indi1.Visible = true;
                 indi1.Text = "Perfect";
                 x3_3 = -200;
-                ;
+                
                 a3_3.Location = new Point(163, x3_3);
                 hit3 += 1;
                 //n3.Stop();
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_3.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4497,6 +4541,8 @@ namespace drumtuto_main
                 hit3 += 1;
                 //n3.Stop();
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_4.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4509,6 +4555,8 @@ namespace drumtuto_main
                 a3_4.Location = new Point(163, x3_4);
                 hit3 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_4.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4521,6 +4569,8 @@ namespace drumtuto_main
                 a3_4.Location = new Point(163, x3_4);
                 hit3 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_5.Bounds.IntersectsWith(pnl1.Bounds))
@@ -4533,6 +4583,8 @@ namespace drumtuto_main
                 a3_5.Location = new Point(163, x3_5);
                 hit3 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a3_5.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4545,6 +4597,8 @@ namespace drumtuto_main
                 a3_5.Location = new Point(163, x3_5);
                 hit3 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
         
         }
@@ -4553,7 +4607,7 @@ namespace drumtuto_main
         {
 
 
-            if (a4_1.Bounds.IntersectsWith(pnl1.Bounds))
+            if (a4_1.Bounds.IntersectsWith(pnl1.Bounds) )
             {
                 a4_1.Visible = false;
                 indi1.Visible = true;
@@ -4563,6 +4617,8 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_1);
                 hit4 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a4_1.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4575,11 +4631,12 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_1);
                 //n4.Stop();
                 hit4 += 1;
-
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
-            if (a4_2.Bounds.IntersectsWith(pnl1.Bounds))
+            if (a4_2.Bounds.IntersectsWith(pnl1.Bounds) )
             {
                 a4_2.Visible = false;
                 indi1.Visible = true;
@@ -4590,6 +4647,8 @@ namespace drumtuto_main
                 //n4.Stop();
                 hit4 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a4_2.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4603,6 +4662,8 @@ namespace drumtuto_main
                 //n4.Stop();
                 hit4 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
             if (a4_3.Bounds.IntersectsWith(pnl1.Bounds))
             {
@@ -4614,6 +4675,8 @@ namespace drumtuto_main
                 //n4.Stop();
                 hit4 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a4_3.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4628,6 +4691,8 @@ namespace drumtuto_main
 
                 hit4 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
             if (a4_4.Bounds.IntersectsWith(pnl1.Bounds))
             {
@@ -4640,6 +4705,8 @@ namespace drumtuto_main
                 //n4.Stop();
                 hit4 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a4_4.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4653,6 +4720,8 @@ namespace drumtuto_main
                 // n4.Stop();
                 hit4 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
             if (a4_5.Bounds.IntersectsWith(pnl1.Bounds))
             {
@@ -4665,6 +4734,8 @@ namespace drumtuto_main
                 //n4.Stop();
                 hit4 += 1;
                 perfect += 1;
+                ones = 1;
+                delaytim.Start();
             }
 
             if (a4_5.Bounds.IntersectsWith(pnl2.Bounds))
@@ -4678,8 +4749,617 @@ namespace drumtuto_main
                 //n4.Stop();
                 hit4 += 1;
                 good += 1;
+                ones = 1;
+                delaytim.Start();
             }
         }
+
+        /* For calibration
+           public void buttonactive1()
+        {
+
+
+
+            if (a1_1.Bounds.IntersectsWith(pnl1.Bounds) && a1_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x1_1 = 0;
+
+                a1_1.Location = new Point(12, x1_1);
+                hit1 += 1;
+
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+
+            }
+
+            if (a1_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x1_1 = 0;
+                a1_1.Location = new Point(12, x1_1);
+                hit1 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+
+            }
+
+
+            if (a1_2.Bounds.IntersectsWith(pnl1.Bounds) && a1_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x1_2 = -100;
+
+                a1_2.Location = new Point(12, x1_2);
+                hit1 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x1_2 = -100;
+                a1_2.Location = new Point(12, x1_2);
+                hit1 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_3.Bounds.IntersectsWith(pnl1.Bounds) && a1_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x1_3 = -200;
+
+                a1_3.Location = new Point(12, x1_3);
+                hit1 += 1;
+
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_3.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x1_3 = -200;
+                a1_3.Location = new Point(12, x1_3);
+                hit1 += 1;
+
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_4.Bounds.IntersectsWith(pnl1.Bounds) && a1_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x1_4 = -300;
+
+                a1_4.Location = new Point(12, x1_4);
+                hit1 += 1;
+
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x1_4 = -300;
+                a1_4.Location = new Point(12, x1_4);
+                hit1 += 1;
+
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_5.Bounds.IntersectsWith(pnl1.Bounds) && a1_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x1_5 = -400;
+
+                a1_5.Location = new Point(12, x1_5);
+                hit1 += 1;
+
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a1_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a1_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x1_5 = -400;
+                a1_5.Location = new Point(12, x1_5);
+                hit1 += 1;
+
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+        }
+
+        public void buttonactive2() 
+        {
+
+            if (a2_1.Bounds.IntersectsWith(pnl1.Bounds) && a2_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x2_1 = 0;
+
+                a1_1.Location = new Point(89, x2_1);
+                hit2 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x2_1 = 0;
+                a2_1.Location = new Point(89, x2_1);
+                hit2 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+
+            }
+
+
+            if (a2_2.Bounds.IntersectsWith(pnl1.Bounds) && a2_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x2_2 = -100;
+
+                a2_2.Location = new Point(89, x2_2);
+                hit2 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x2_2 = -100;
+                a2_2.Location = new Point(89, x2_2);
+                hit2 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_3.Bounds.IntersectsWith(pnl1.Bounds) && a2_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x2_3 = -200;
+
+                a2_3.Location = new Point(89, x2_3);
+                hit2 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_3.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x2_3 = -200;
+                a2_3.Location = new Point(89, x2_3);
+                hit2 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_4.Bounds.IntersectsWith(pnl1.Bounds) && a2_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x2_4 = -300;
+
+                a2_4.Location = new Point(89, x2_4);
+                hit2 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x2_4 = -300;
+                a2_4.Location = new Point(89, x2_4);
+                hit2 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_5.Bounds.IntersectsWith(pnl1.Bounds) && a2_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x2_5 = -400;
+
+                a2_5.Location = new Point(89, x2_5);
+                hit2 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a2_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a2_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x2_5 = -400;
+                a2_5.Location = new Point(89, x1_5);
+                hit2 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+        }
+
+        public void buttonactive3() 
+        {
+
+
+            if (a3_1.Bounds.IntersectsWith(pnl1.Bounds) && a3_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x3_1 = 0;
+
+                a3_1.Location = new Point(163, x3_1);
+                hit3 += 1;
+                //n3.Stop();
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x3_1 = 0;
+                a3_1.Location = new Point(163, x3_1);
+                hit3 += 1;
+                //n3.Stop();
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+
+            if (a3_2.Bounds.IntersectsWith(pnl1.Bounds) && a3_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x3_2 = -100;
+
+                a3_2.Location = new Point(163, x3_2);
+                hit3 += 1;
+                //n3.Stop();
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x3_2 = -100;
+                a3_2.Location = new Point(163, x3_2);
+                hit3 += 1;
+                //n3.Stop();
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_3.Bounds.IntersectsWith(pnl1.Bounds) && a3_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x3_3 = -200;
+                ;
+                a3_3.Location = new Point(163, x3_3);
+                hit3 += 1;
+                //n3.Stop();
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_3.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x3_3 = -200;
+                a3_3.Location = new Point(163, x3_3);
+                hit3 += 1;
+                //n3.Stop();
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_4.Bounds.IntersectsWith(pnl1.Bounds) && a3_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x3_4 = -300;
+                
+                a3_4.Location = new Point(163, x3_4);
+                hit3 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x3_4 = -300;
+                a3_4.Location = new Point(163, x3_4);
+                hit3 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_5.Bounds.IntersectsWith(pnl1.Bounds) && a3_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x3_5 = -400;
+                
+                a3_5.Location = new Point(163, x3_5);
+                hit3 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a3_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a3_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x3_5 = -400;
+                a3_5.Location = new Point(163, x3_5);
+                hit3 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+        
+        }
+        
+        public void buttonactive4() 
+        {
+
+
+            if (a4_1.Bounds.IntersectsWith(pnl1.Bounds) && a4_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x4_1 = 0;
+                
+                a4_1.Location = new Point(239, x4_1);
+                hit4 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a4_1.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_1.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x4_1 = 0;
+                a4_1.Location = new Point(239, x4_1);
+                //n4.Stop();
+                hit4 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a4_2.Bounds.IntersectsWith(pnl1.Bounds) && a4_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x4_2 = -100;
+                
+                a4_2.Location = new Point(239, x4_2);
+                //n4.Stop();
+                hit4 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a4_2.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_2.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x4_2 = -100;
+                a4_2.Location = new Point(239, x4_2);
+                //n4.Stop();
+                hit4 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+            if (a4_3.Bounds.IntersectsWith(pnl1.Bounds) && a4_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_3.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x4_3 = -200;
+                a4_3.Location = new Point(239, x4_3);
+                //n4.Stop();
+                hit4 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a4_3.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_3.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x4_3 = -200;
+                a4_3.Location = new Point(239, x4_3);
+                //n4.Stop();
+
+                hit4 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+            if (a4_4.Bounds.IntersectsWith(pnl1.Bounds) && a4_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x4_4 = -300;
+
+                a4_1.Location = new Point(239, x4_4);
+                //n4.Stop();
+                hit4 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a4_4.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_4.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x4_4 = -300;
+                a4_4.Location = new Point(239, x4_4);
+                // n4.Stop();
+                hit4 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+            if (a4_5.Bounds.IntersectsWith(pnl1.Bounds) && a4_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Perfect";
+                x4_5 = -400;
+                
+                a4_5.Location = new Point(239, x4_5);
+                //n4.Stop();
+                hit4 += 1;
+                perfect += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+
+            if (a4_5.Bounds.IntersectsWith(pnl2.Bounds))
+            {
+                a4_5.Visible = false;
+                indi1.Visible = true;
+                indi1.Text = "Good";
+
+                x4_5 = -400;
+                a4_5.Location = new Point(239, x4_5);
+                //n4.Stop();
+                hit4 += 1;
+                good += 1;
+                ones = 1;
+                delaytim.Start();
+            }
+        }*/
 
         #endregion
 
@@ -4760,7 +5440,7 @@ namespace drumtuto_main
             n6.Stop();
             n7.Stop();
             n8.Stop();
-            delaytim.Start();
+            indi1.SendToBack();
             #endregion
 
           
@@ -5141,6 +5821,10 @@ namespace drumtuto_main
                 a1_1.Location = new Point(12, x1_1);
                 miss += 1;
                 hit1 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a1_2.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5152,6 +5836,10 @@ namespace drumtuto_main
                 a1_2.Location = new Point(12, x1_2);
                 miss += 1;
                 hit1 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a1_3.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5163,6 +5851,10 @@ namespace drumtuto_main
                 a1_3.Location = new Point(12, x1_3);
                 miss += 1;
                 hit1 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a1_4.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5174,6 +5866,10 @@ namespace drumtuto_main
                 a1_4.Location = new Point(12, x1_4);
                 miss += 1;
                 hit1 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a1_5.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5185,6 +5881,10 @@ namespace drumtuto_main
                 a1_5.Location = new Point(12, x1_5);
                 miss += 1;
                 hit1 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
 
@@ -5503,6 +6203,10 @@ namespace drumtuto_main
                 a2_1.Location = new Point(89, x2_1);
                 miss += 1;
                 hit2 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a2_2.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5514,6 +6218,10 @@ namespace drumtuto_main
                 a2_2.Location = new Point(89, x2_2);
                 miss += 1;
                 hit2 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a2_3.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5525,6 +6233,10 @@ namespace drumtuto_main
                 a2_3.Location = new Point(89, x2_3);
                 miss += 1;
                 hit2 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a2_4.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5536,6 +6248,10 @@ namespace drumtuto_main
                 a2_4.Location = new Point(89, x2_4);
                 miss += 1;
                 hit2 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a2_5.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5547,6 +6263,10 @@ namespace drumtuto_main
                 a2_5.Location = new Point(89, x2_5);
                 miss += 1;
                 hit2 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
 
@@ -5865,6 +6585,10 @@ namespace drumtuto_main
                 a3_1.Location = new Point(163, x3_1);
                 miss += 1;
                 hit3 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a3_2.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5876,6 +6600,10 @@ namespace drumtuto_main
                 a3_2.Location = new Point(163, x3_2);
                 miss += 1;
                 hit3 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a3_3.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5898,6 +6626,10 @@ namespace drumtuto_main
                 a3_4.Location = new Point(163, x3_4);
                 miss += 1;
                 hit3 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
             if (a3_5.Bounds.IntersectsWith(pnl3.Bounds))
@@ -5909,6 +6641,10 @@ namespace drumtuto_main
                 a3_5.Location = new Point(163, x3_5);
                 miss += 1;
                 hit3 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n3.Stop();
             }
 
@@ -6264,6 +7000,10 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_1);
                 miss += 1;
                 hit4 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n4.Stop();
             }
             if (a4_2.Bounds.IntersectsWith(pnl3.Bounds))
@@ -6273,6 +7013,10 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_2);
                 miss += 1;
                 hit4 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n4.Stop();
 
             }
@@ -6283,6 +7027,10 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_3);
                 miss += 1;
                 hit4 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n4.Stop();
 
             }
@@ -6293,6 +7041,10 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_4);
                 miss += 1;
                 hit4 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n4.Stop();
                
             }
@@ -6303,6 +7055,10 @@ namespace drumtuto_main
                 a4_1.Location = new Point(239, x4_5);
                 miss += 1;
                 hit4 += 1;
+                indi1.Visible = true;
+                indi1.Text = "Miss";
+                ones = 1;
+                delaytim.Start();
                 //n4.Stop();
 
             }
@@ -6432,7 +7188,13 @@ namespace drumtuto_main
 
         private void delaytim_Tick(object sender, EventArgs e)
         {
-    
+            ones--;
+            indi1.SendToBack();
+            if(ones==0 || ones <=0)
+            {
+                indi1.Visible = false;
+                delaytim.Stop();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)

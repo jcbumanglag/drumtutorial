@@ -40,21 +40,13 @@
             this.n7 = new System.Windows.Forms.Timer(this.components);
             this.n8 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.GroupBox();
-            this.stats1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.currmiss = new System.Windows.Forms.Label();
-            this.currgood = new System.Windows.Forms.Label();
-            this.currperf = new System.Windows.Forms.Label();
-            this.miss1 = new System.Windows.Forms.Label();
-            this.good1 = new System.Windows.Forms.Label();
-            this.perf1 = new System.Windows.Forms.Label();
+            this.pnl3 = new System.Windows.Forms.Panel();
+            this.pnl2 = new System.Windows.Forms.Panel();
+            this.pnl1 = new System.Windows.Forms.Panel();
             this.gpins1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pnl3 = new System.Windows.Forms.Panel();
-            this.pnl2 = new System.Windows.Forms.Panel();
             this.indi1 = new System.Windows.Forms.Label();
-            this.pnl1 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.currtempo = new System.Windows.Forms.Label();
             this.tempo = new System.Windows.Forms.Label();
@@ -67,6 +59,14 @@
             this.drumpic = new System.Windows.Forms.PictureBox();
             this.delaytim = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.stats1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.currmiss = new System.Windows.Forms.Label();
+            this.currgood = new System.Windows.Forms.Label();
+            this.currperf = new System.Windows.Forms.Label();
+            this.miss1 = new System.Windows.Forms.Label();
+            this.good1 = new System.Windows.Forms.Label();
+            this.perf1 = new System.Windows.Forms.Label();
             this.b6 = new bankers_game_proto.Curvebutton();
             this.b7 = new bankers_game_proto.Curvebutton();
             this.b5 = new bankers_game_proto.Curvebutton();
@@ -126,10 +126,10 @@
             this.curvebutton2 = new bankers_game_proto.Curvebutton();
             this.curvebutton1 = new bankers_game_proto.Curvebutton();
             this.panel1.SuspendLayout();
-            this.stats1.SuspendLayout();
             this.gpins1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.drumpic)).BeginInit();
+            this.stats1.SuspendLayout();
             this.SuspendLayout();
             // 
             // p1
@@ -246,94 +246,32 @@
             this.panel1.TabIndex = 0;
             this.panel1.TabStop = false;
             // 
-            // stats1
+            // pnl3
             // 
-            this.stats1.Controls.Add(this.label3);
-            this.stats1.Controls.Add(this.currmiss);
-            this.stats1.Controls.Add(this.currgood);
-            this.stats1.Controls.Add(this.currperf);
-            this.stats1.Controls.Add(this.miss1);
-            this.stats1.Controls.Add(this.good1);
-            this.stats1.Controls.Add(this.perf1);
-            this.stats1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stats1.ForeColor = System.Drawing.Color.White;
-            this.stats1.Location = new System.Drawing.Point(12, 108);
-            this.stats1.Name = "stats1";
-            this.stats1.Size = new System.Drawing.Size(598, 448);
-            this.stats1.TabIndex = 123;
-            this.stats1.TabStop = false;
-            this.stats1.Text = "Statistics";
-            this.stats1.Visible = false;
+            this.pnl3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pnl3.Location = new System.Drawing.Point(3, 692);
+            this.pnl3.Name = "pnl3";
+            this.pnl3.Size = new System.Drawing.Size(611, 60);
+            this.pnl3.TabIndex = 84;
+            this.pnl3.Visible = false;
             // 
-            // label3
+            // pnl2
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(134, 355);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(332, 42);
-            this.label3.TabIndex = 127;
-            this.label3.Text = "Hit Bass To Exit...";
+            this.pnl2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pnl2.Location = new System.Drawing.Point(6, 634);
+            this.pnl2.Name = "pnl2";
+            this.pnl2.Size = new System.Drawing.Size(611, 14);
+            this.pnl2.TabIndex = 83;
+            this.pnl2.Visible = false;
             // 
-            // currmiss
+            // pnl1
             // 
-            this.currmiss.AutoSize = true;
-            this.currmiss.BackColor = System.Drawing.Color.Transparent;
-            this.currmiss.Location = new System.Drawing.Point(329, 242);
-            this.currmiss.Name = "currmiss";
-            this.currmiss.Size = new System.Drawing.Size(124, 42);
-            this.currmiss.TabIndex = 126;
-            this.currmiss.Text = "label3";
-            // 
-            // currgood
-            // 
-            this.currgood.AutoSize = true;
-            this.currgood.BackColor = System.Drawing.Color.Transparent;
-            this.currgood.Location = new System.Drawing.Point(329, 177);
-            this.currgood.Name = "currgood";
-            this.currgood.Size = new System.Drawing.Size(124, 42);
-            this.currgood.TabIndex = 125;
-            this.currgood.Text = "label3";
-            // 
-            // currperf
-            // 
-            this.currperf.AutoSize = true;
-            this.currperf.BackColor = System.Drawing.Color.Transparent;
-            this.currperf.Location = new System.Drawing.Point(329, 105);
-            this.currperf.Name = "currperf";
-            this.currperf.Size = new System.Drawing.Size(124, 42);
-            this.currperf.TabIndex = 124;
-            this.currperf.Text = "label3";
-            // 
-            // miss1
-            // 
-            this.miss1.AutoSize = true;
-            this.miss1.BackColor = System.Drawing.Color.Transparent;
-            this.miss1.Location = new System.Drawing.Point(134, 245);
-            this.miss1.Name = "miss1";
-            this.miss1.Size = new System.Drawing.Size(99, 42);
-            this.miss1.TabIndex = 123;
-            this.miss1.Text = "Miss";
-            // 
-            // good1
-            // 
-            this.good1.AutoSize = true;
-            this.good1.BackColor = System.Drawing.Color.Transparent;
-            this.good1.Location = new System.Drawing.Point(134, 175);
-            this.good1.Name = "good1";
-            this.good1.Size = new System.Drawing.Size(114, 42);
-            this.good1.TabIndex = 122;
-            this.good1.Text = "Good";
-            // 
-            // perf1
-            // 
-            this.perf1.AutoSize = true;
-            this.perf1.BackColor = System.Drawing.Color.Transparent;
-            this.perf1.Location = new System.Drawing.Point(134, 105);
-            this.perf1.Name = "perf1";
-            this.perf1.Size = new System.Drawing.Size(143, 42);
-            this.perf1.TabIndex = 121;
-            this.perf1.Text = "Perfect";
+            this.pnl1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pnl1.Location = new System.Drawing.Point(6, 591);
+            this.pnl1.Name = "pnl1";
+            this.pnl1.Size = new System.Drawing.Size(611, 15);
+            this.pnl1.TabIndex = 69;
+            this.pnl1.Visible = false;
             // 
             // gpins1
             // 
@@ -371,45 +309,18 @@
             this.label1.TabIndex = 92;
             this.label1.Text = "Right Hand";
             // 
-            // pnl3
-            // 
-            this.pnl3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pnl3.Location = new System.Drawing.Point(3, 692);
-            this.pnl3.Name = "pnl3";
-            this.pnl3.Size = new System.Drawing.Size(611, 60);
-            this.pnl3.TabIndex = 84;
-            this.pnl3.Visible = false;
-            // 
-            // pnl2
-            // 
-            this.pnl2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pnl2.Location = new System.Drawing.Point(3, 645);
-            this.pnl2.Name = "pnl2";
-            this.pnl2.Size = new System.Drawing.Size(611, 14);
-            this.pnl2.TabIndex = 83;
-            this.pnl2.Visible = false;
-            // 
             // indi1
             // 
             this.indi1.AutoSize = true;
             this.indi1.BackColor = System.Drawing.Color.Transparent;
             this.indi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.indi1.ForeColor = System.Drawing.Color.White;
-            this.indi1.Location = new System.Drawing.Point(145, 283);
+            this.indi1.Location = new System.Drawing.Point(134, 283);
             this.indi1.Name = "indi1";
             this.indi1.Size = new System.Drawing.Size(305, 108);
             this.indi1.TabIndex = 71;
             this.indi1.Text = "label1";
             this.indi1.Visible = false;
-            // 
-            // pnl1
-            // 
-            this.pnl1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pnl1.Location = new System.Drawing.Point(3, 594);
-            this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(611, 15);
-            this.pnl1.TabIndex = 69;
-            this.pnl1.Visible = false;
             // 
             // groupBox2
             // 
@@ -546,6 +457,95 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // stats1
+            // 
+            this.stats1.Controls.Add(this.label3);
+            this.stats1.Controls.Add(this.currmiss);
+            this.stats1.Controls.Add(this.currgood);
+            this.stats1.Controls.Add(this.currperf);
+            this.stats1.Controls.Add(this.miss1);
+            this.stats1.Controls.Add(this.good1);
+            this.stats1.Controls.Add(this.perf1);
+            this.stats1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stats1.ForeColor = System.Drawing.Color.White;
+            this.stats1.Location = new System.Drawing.Point(10, 124);
+            this.stats1.Name = "stats1";
+            this.stats1.Size = new System.Drawing.Size(598, 448);
+            this.stats1.TabIndex = 124;
+            this.stats1.TabStop = false;
+            this.stats1.Text = "Statistics";
+            this.stats1.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(134, 355);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(332, 42);
+            this.label3.TabIndex = 127;
+            this.label3.Text = "Hit Bass To Exit...";
+            // 
+            // currmiss
+            // 
+            this.currmiss.AutoSize = true;
+            this.currmiss.BackColor = System.Drawing.Color.Transparent;
+            this.currmiss.Location = new System.Drawing.Point(329, 242);
+            this.currmiss.Name = "currmiss";
+            this.currmiss.Size = new System.Drawing.Size(124, 42);
+            this.currmiss.TabIndex = 126;
+            this.currmiss.Text = "label3";
+            // 
+            // currgood
+            // 
+            this.currgood.AutoSize = true;
+            this.currgood.BackColor = System.Drawing.Color.Transparent;
+            this.currgood.Location = new System.Drawing.Point(329, 177);
+            this.currgood.Name = "currgood";
+            this.currgood.Size = new System.Drawing.Size(124, 42);
+            this.currgood.TabIndex = 125;
+            this.currgood.Text = "label3";
+            // 
+            // currperf
+            // 
+            this.currperf.AutoSize = true;
+            this.currperf.BackColor = System.Drawing.Color.Transparent;
+            this.currperf.Location = new System.Drawing.Point(329, 105);
+            this.currperf.Name = "currperf";
+            this.currperf.Size = new System.Drawing.Size(124, 42);
+            this.currperf.TabIndex = 124;
+            this.currperf.Text = "label3";
+            // 
+            // miss1
+            // 
+            this.miss1.AutoSize = true;
+            this.miss1.BackColor = System.Drawing.Color.Transparent;
+            this.miss1.Location = new System.Drawing.Point(134, 245);
+            this.miss1.Name = "miss1";
+            this.miss1.Size = new System.Drawing.Size(99, 42);
+            this.miss1.TabIndex = 123;
+            this.miss1.Text = "Miss";
+            // 
+            // good1
+            // 
+            this.good1.AutoSize = true;
+            this.good1.BackColor = System.Drawing.Color.Transparent;
+            this.good1.Location = new System.Drawing.Point(134, 175);
+            this.good1.Name = "good1";
+            this.good1.Size = new System.Drawing.Size(114, 42);
+            this.good1.TabIndex = 122;
+            this.good1.Text = "Good";
+            // 
+            // perf1
+            // 
+            this.perf1.AutoSize = true;
+            this.perf1.BackColor = System.Drawing.Color.Transparent;
+            this.perf1.Location = new System.Drawing.Point(134, 105);
+            this.perf1.Name = "perf1";
+            this.perf1.Size = new System.Drawing.Size(143, 42);
+            this.perf1.TabIndex = 121;
+            this.perf1.Text = "Perfect";
             // 
             // b6
             // 
@@ -1333,7 +1333,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1352, 693);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.b6);
             this.Controls.Add(this.b7);
             this.Controls.Add(this.b5);
@@ -1345,19 +1344,20 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.drumpic);
+            this.Controls.Add(this.panel1);
             this.Name = "drumstutos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.stats1.ResumeLayout(false);
-            this.stats1.PerformLayout();
             this.gpins1.ResumeLayout(false);
             this.gpins1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.drumpic)).EndInit();
+            this.stats1.ResumeLayout(false);
+            this.stats1.PerformLayout();
             this.ResumeLayout(false);
 
         }
