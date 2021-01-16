@@ -2,6 +2,7 @@
 an arduino based drum tutorial 
 
 Full Link to the application
-https://drive.google.com/file/d/1UnLhEBznmo3-5qYbKI5WOzEJEE72Menl/view?usp=sharing
+(Updated jan 16, 2021)
+https://drive.google.com/file/d/1purUeeAJvpQAeCY82lzXJb4Wq-IZ-Aox/view?usp=sharing
 
 Note: This is still WIP
