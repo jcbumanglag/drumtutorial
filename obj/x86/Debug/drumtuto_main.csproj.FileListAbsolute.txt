@@ -1,0 +1,46 @@
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.exe
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.pdb
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu.resources
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu2.resources
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Properties.Resources.resources
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csproj.GenerateResource.Cache
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.exe
+C:\Users\OBM\documents\visual studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.pdb
+C:\Users\OBM\Documents\Visual Studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csprojResolveAssemblyReference.cache
+C:\Users\OBM\Documents\Visual Studio 2010\Projects\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Settings.resources
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.exe
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.pdb
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.exe
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.pdb
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csprojResolveAssemblyReference.cache
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu.resources
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu2.resources
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Properties.Resources.resources
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Settings.resources
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csproj.GenerateResource.Cache
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.assessmentform.resources
+C:\Users\OBM\Desktop\Thesis backup2\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.drumstutos.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.exe
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.pdb
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.exe
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.pdb
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.assessmentform.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.drumstutos.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu2.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Properties.Resources.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Settings.resources
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csprojResolveAssemblyReference.cache
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.exe
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\bin\Debug\drumtuto_main.pdb
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.assessmentform.resources
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.drumstutos.resources
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu.resources
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.menu2.resources
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Properties.Resources.resources
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.Settings.resources
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csproj.GenerateResource.Cache
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.exe
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.pdb
+C:\Users\Admin-User\Downloads\demo_purposes(mar2021_24)\drumtuto_main\drumtuto_main\obj\x86\Debug\drumtuto_main.csprojResolveAssemblyReference.cache
