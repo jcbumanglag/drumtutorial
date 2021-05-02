@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="assessmentform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assessmentform.designer.cs">
+      <DependentUpon>assessmentform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Curvebutton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -64,11 +70,20 @@
     <Compile Include="menu2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu2.designer.cs">
+    <Compile Include="menu2.Designer.cs">
       <DependentUpon>menu2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="assessmentform.resx">
+      <DependentUpon>assessmentform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="drumstutos.resx">
       <DependentUpon>drumstutos.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,6 +97,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -99,25 +117,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gamestart.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\menuset.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\drum-set.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnstart.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\button.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnsettings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\btnext.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\title.png" />
@@ -135,22 +144,16 @@
     <None Include="Resources\enter.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnabout.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\btnmaintenance.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnabout1.png" />
+    <None Include="Resources\btnext.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnback.png" />
+    <None Include="Resources\btnabout.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnext1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\btnmaintenance1.png" />
+    <None Include="Resources\btnstart.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnmusic.png" />
@@ -165,76 +168,62 @@
     <None Include="Resources\btnopt3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnsettings1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\btnstart1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\btntutorials.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnwarmup.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drum-set1.png" />
+    <None Include="Resources\btnback.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gamestart1.jpg" />
+    <None Include="Resources\gamestart.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\btn3beats.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\menuset1.jpg" />
+    <None Include="Resources\btngenre.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\title1.png" />
+    <None Include="Resources\btnbasic.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnabout2.png" />
+    <None Include="Resources\btnrock.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnback1.png" />
+    <None Include="Resources\btnclassic.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnext2.png" />
+    <None Include="Resources\btndex1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnmaintenance2.png" />
+    <None Include="Resources\btndex2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnmusic1.png" />
+    <None Include="Resources\btnjazz.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnopt11.png" />
+    <None Include="Resources\btntutorialmenu.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnopt21.png" />
+    <None Include="Resources\1 star.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnopt31.png" />
+    <None Include="Resources\2 star.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnsettings2.png" />
+    <None Include="Resources\3star.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnstart2.png" />
+    <None Include="Resources\b1activated.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btntutorials1.png" />
+    <None Include="Resources\b1inactives.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnwarmup1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drum-set2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\gamestart2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\menuset2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\title2.png" />
+    <None Include="Resources\b2activated.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\b2inactives.png" />
@@ -276,34 +265,88 @@
     <None Include="Resources\b8inactives.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\countdown.wav" />
+    <None Include="Resources\btn3beats1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\snare.wav" />
+    <None Include="Resources\btnbasic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnclassic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btndex11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btndex21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnfailed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btngenre1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnjazz1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnpaused.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnquit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnrestart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnresume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnrock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnyes.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\129852011_395377775244478_5922764547471579795_n.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1activated.png" />
+    <None Include="Resources\Drumstick bg.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1active.png" />
+    <None Include="Resources\gamestart1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1active-removebg-preview.png" />
+    <None Include="Resources\btnprofessional.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1inactive.png" />
+    <None Include="Resources\btnscoringcalibration.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1inactive-removebg-preview.png" />
+    <None Include="Resources\btnsounds.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1inactives.png" />
+    <None Include="Resources\btnstudent.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b2activated.png" />
+    <None Include="Resources\btnoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnindicatorleds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countdown.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snare.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
